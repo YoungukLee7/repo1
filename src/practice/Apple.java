@@ -2,15 +2,15 @@ package practice;
 
 public class Apple {
 
-	int a;
-	int b;
-	int c;
+	int x;
+	int y;
+	int z;
 	int d;
 	
-	public Apple(int a, int b, int c, int d) {
-		this.a = a;
-		this.b = b;
-		this.c = c;
+	public Apple(int x, int y, int z, int d) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
 		this.d = d;
 	}
 }
