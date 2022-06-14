@@ -23,6 +23,8 @@
  - 커밋 당시 unstaged 상태로 남겨놓는 파일들은 아직 더 만들어야 하는 코드들이고,
  - staged 상태로 포함시킨 파일들은 다 만들어져서 상태를 보관하고자 하는 코드들이다
  
+123
+ 
 # 이클립스에서 git 사용 방법
 
 이클립스 -> window -> show view -> others -> Git -> Git Repositories
