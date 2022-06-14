@@ -8,11 +8,13 @@
  - GIT은 Repository 내부의 무언가가 아주 약간만 변해도 모두 알아차리고 관리해준다
  - 이클립스에는 Egit이라는 프로그램이 내장되어 있다
 
+
 # Commit
 
  - 레포지토리 내부에 변경사항을 확정짓는 명령어
  - 커밋한 시점은 복구 지점이 된다
- - 체크 아웃 명령을 통해 언제든지 원하는 커밋으로 현재 상태를 옮겨 다닐 수 있다
+ - 체크 아웃 명령을 통해 언제든지 원하는 커밋으로 현재 상태(HEAD)를 옮겨 다닐 수 있다
+
 
 # staged 와 unstaged의 차이점
 
@@ -23,9 +25,27 @@
  - 커밋 당시 unstaged 상태로 남겨놓는 파일들은 아직 더 만들어야 하는 코드들이고,
  - staged 상태로 포함시킨 파일들은 다 만들어져서 상태를 보관하고자 하는 코드들이다
  
-123
+ 
+# .gitignore
+
+ - .gitignore 파일에 작성해둔 패턴과 일치하는 파일들은 Git의 관리 대상에서 제외된다
+ - 이클립스 프로젝트를 사용할 때에는 이클립스 관련 파일들을 등록해놓는 것이 좋다
+
+	/bin/
+	.classpath
+	.project
+
  
 # 이클립스에서 git 사용 방법
 
 이클립스 -> window -> show view -> others -> Git -> Git Repositories
-CREATE(3개 중 마지막) -> 저장할 곳 선택 -> 자바 프로젝트 생성 중 경로를 이곳으로 설정
+Create a new Git Repository and add it to this view 클릭 -> 
+저장할 곳 선택 -> 새 자바 프로젝트 생성 중 경로를 이곳으로 설정
+
+History
+ref filters 보여지는 것 모두 체크
+이전에 한 것으로 돌아가고 싶으면 그 파일 우클릭 -> 
+
+commit
+깃에서 만든 repo1 우클릭 -> commit 선택
+
