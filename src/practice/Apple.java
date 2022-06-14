@@ -2,10 +2,10 @@ package practice;
 
 public class Apple {
 
-	int x;
-	int y;
-	int z;
-	int d;
+	double x;
+	double y;
+	double z;
+	double d;
 	
 	public Apple(int x, int y, int z, int d) {
 		this.x = x;
