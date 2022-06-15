@@ -6,5 +6,6 @@ public class Wolf {
 	int price = 5000;
 	
 	public Wolf() {
+		System.out.println("´Á´ë´Â ¿î´Ù");
 	}
 }
